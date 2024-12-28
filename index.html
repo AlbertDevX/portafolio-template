@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <span></span>
+    </div>
+    <div id="content">
+        <h1>Bienvenidos a Mi Portafolio</h1>
+        <p>Aquí podrás ver todo de lo que me dedico</p>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#loader').fadeOut();
+                $('#content').fadeIn();
+            }, 3000); // 3 segundos de tiempo de carga del loader
+        });
+    </script>
+    <script src="assets/js/loader.js"></script>
+    <script src="assets/js/transitions.js"></script>
+</body>
+</html>

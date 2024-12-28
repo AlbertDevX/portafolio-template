@@ -1,0 +1,80 @@
+.card {
+    width: 300px;
+    height: 254px;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+}
+
+.circles {
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.circles {
+    width: 20%;
+    gap: 8px;
+    padding: 10px;
+}
+
+.c {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 5px #ffffff25;
+}
+
+.c:first-child {
+    background-color: red;
+}
+
+.c:nth-child(2) {
+    background-color: rgb(204, 167, 4);
+}
+
+.c:last-child {
+    background-color: green;
+}
+
+.browser {
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: rgb(204, 204, 204);
+    box-shadow: inset 2px 2px 2px #ffffff25;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    color: inherit;
+    width: 100%;
+    outline: none;
+    font-size: 10px;
+    padding-left: 25px;
+}
+
+.search-bar svg {
+    position: absolute;
+    left: 10px;
+    fill: rgb(204, 204, 204);
+}
