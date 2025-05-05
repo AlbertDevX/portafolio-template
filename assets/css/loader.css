@@ -4,16 +4,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1e1e1e; /* Fondo oscuro */
-    color: #c5c8c6; /* Color de texto claro */
-    font-family: 'Courier New', Courier, monospace; /* Tipografía monoespaciada */
+    background-color: #1e1e1e;
+    color: #c5c8c6;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #loader {
     position: relative;
     width: 160px;
     height: 160px;
-    border: 4px solid #c5c8c6; /* Borde claro */
+    border: 4px solid #c5c8c6;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.1),
@@ -30,7 +30,7 @@ body {
     right: 25px;
     bottom: 25px;
     z-index: 10;
-    background: #282828; /* Color de fondo más oscuro */
+    background: #282828;
     border-radius: 50%;
     border: 2px solid #292929;
     box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.2),
@@ -44,9 +44,9 @@ body {
     border-radius: 50%;
     background-image: linear-gradient(
       -225deg,
-      #81a2be 0%, /* Color azul claro */
-      #b5bd68 50%, /* Color verde claro */
-      #f0c674 100% /* Color amarillo claro */
+      #81a2be 0%,
+      #b5bd68 50%,
+      #f0c674 100%
     );
     filter: blur(20px);
     z-index: -1;
@@ -63,6 +63,6 @@ body {
 }
 
 #content {
-    text-align: center; /* Centrar el texto */
-    display: none; /* Ocultar el contenido inicialmente */
+    text-align: center;
+    display: none;
 }
